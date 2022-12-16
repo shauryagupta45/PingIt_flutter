@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387224767329",
+    "project_id": "ping-it-flutter",
+    "storage_bucket": "ping-it-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387224767329:android:34953efc580f2ee293d320",
+        "android_client_info": {
+          "package_name": "com.example.ping_it_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387224767329-mp47nhasm04v4i9l7dv9o23f46kp6n5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ping_it_chat",
+            "certificate_hash": "54702d01425b651b4a44b258178e0ba070d6e066"
+          }
+        },
+        {
+          "client_id": "387224767329-rmkh015k90nqqoe30pilsiqmk1mmrghn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAneAVmbnUkMY_hqwovhok1y3ry6QN8xMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387224767329-rmkh015k90nqqoe30pilsiqmk1mmrghn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
