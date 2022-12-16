@@ -1,16 +1,9 @@
-# ping_it_chat
+# Ping_It_chat
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A telegram like Chat-App. Main focus points was grasping over the concepts of -> Email/Password authentication, RealTime Firebase database, Error Handling Stream Builder Method, Search method and other Firebase queries.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This android app is still in development, the readme will be update with more explaination as this go further. 
