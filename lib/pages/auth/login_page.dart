@@ -4,8 +4,8 @@ import 'dart:html';
 
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-
 import 'package:flutter/material.dart';
+import 'package:ping_it_chat/widget/widgets.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -19,6 +19,9 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor,
+      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 60),
@@ -45,6 +48,26 @@ class _LoginPageState extends State<LoginPage> {
                   "assets/login_page.png",
                   fit: BoxFit.fill,
                 ),
+                TextFormField(
+                  textAlign: TextAlign.center,
+                  decoration: textInputDecoration.copyWith(
+                      hintText: "Email",
+                      prefix: Icon(
+                        Icons.email,
+                        color: Theme.of(context).primaryColor,
+                      )),
+                ),
+                const SizedBox(height: 15),
+                TextFormField(
+                  textAlign: TextAlign.center,
+                  decoration: textInputDecoration.copyWith(
+                    hintText: "Password",
+                    prefix: Icon(
+                      Icons.lock,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                )
               ],
             ),
           ),
