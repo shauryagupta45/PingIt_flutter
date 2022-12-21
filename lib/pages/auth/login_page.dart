@@ -24,9 +24,6 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).primaryColor,
-      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 60),
@@ -157,3 +154,6 @@ class _LoginPageState extends State<LoginPage> {
     if (formKey.currentState!.validate()) {}
   }
 }
+
+
+//Register Screen is quite similar to the login screen. 
